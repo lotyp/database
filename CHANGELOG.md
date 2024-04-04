@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.9.1](https://github.com/lotyp/database/compare/v2.9.0...v2.9.1) (2024-04-04)
+
+
+### Bug Fixes
+
+* 53 ([ddec160](https://github.com/lotyp/database/commit/ddec160362ea67ab11cb33b180b9921bfa15dff8))
+* don't add a table prefix when column quoting ([#103](https://github.com/lotyp/database/issues/103)) ([0fe0319](https://github.com/lotyp/database/commit/0fe0319554c6ee473699cf3a47b00cc1121bdd6c))
+* interpolator includes microseconds into SQL result if it's configured ([#155](https://github.com/lotyp/database/issues/155)) ([16047de](https://github.com/lotyp/database/commit/16047de074f4c5f0cb1478daa1a8e04a84f5d508))
+
+
+### Continuous Integration
+
+* automate changelog and release management ([#2](https://github.com/lotyp/database/issues/2)) ([10bd18e](https://github.com/lotyp/database/commit/10bd18e116f8345ca8d34fc280f5692abd18c531))
+* switch to auto changelog ([#3](https://github.com/lotyp/database/issues/3)) ([bed846b](https://github.com/lotyp/database/commit/bed846b7afba7fc18390d2256814884504eaaf09))
+
 ## [2.9.0](https://github.com/cycle/database/compare/2.8.1...2.9.0) (2024-03-27)
 
 ### Features
